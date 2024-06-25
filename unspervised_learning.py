@@ -46,7 +46,7 @@ warnings.simplefilter(action='ignore', category=Warning)
 warnings.filterwarnings("ignore")
 
 # Veri Seti Okutma
-df = pd.read_csv("dataset/unspervised/flo_data_20k.csv")
+df = pd.read_csv("dataset/flo_data_20k.csv")
 
 # EDA(Exploratory Data Analysis)
 def check_df(dataframe, head=5):
